@@ -9,8 +9,8 @@ def filter_contacts(filename):
     print("To keep it same as the given name(the one after -), press f")
     wishing_contacts = dict()
     for index, row in all_contacts.iterrows():
-        print(str(row['Name'])+"  -  "+str(row['Given Name']))
-        wishing_contacts[str(row['Name'])] = str(row['Given Name'])
+        print(str(row["Name"]) + "  -  " + str(row["Given Name"]))
+        wishing_contacts[str(row["Name"])] = str(row["Given Name"])
         # y = input()
         # if y == 'x':
         #     break
